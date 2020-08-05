@@ -1,0 +1,134 @@
+body{
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    flex-basis: auto;
+    height: 30px;
+    max-width: 100%;
+    padding: 20px;
+    font-size: 13px;
+}
+
+.header-anchor {
+    padding: 0px 15px;
+}
+
+.apps-button {
+    height: 30px;
+    width: 30px;
+    background-size: 528px 68px;
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position: -132px -38px;
+    opacity: .55;
+    padding: 0px;   
+}
+
+.profile-pic-slot{
+    padding: 10px;
+}
+
+.profile-pic {
+    height: 32px;
+}
+
+a {
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0px 0px 0px 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 47px 0px 0px;
+}
+
+.logo {
+    margin: 61px 0px 0px;
+}
+
+.search-input{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 18px 0px 0px 0px;
+    width: 482px;
+}
+
+.search-input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-button-bar{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 18px 0px 0px 0px;
+}
+
+.search-buttons{
+    color: #5F6368;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: rgb(242, 242, 242);
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+}
+
+.search-buttons:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    margin: 25px 0px;
+}
+hr{
+    padding: 5px;
+}
+.footer-anchor {
+    color: #5F6368;
+    
+}
+
+.privacidad {
+    color: #5F6368;
+    position: fixed;
+    right: 0;
+    padding: 0px 15px;
+}
+
+span {
+    color: #5F6368;
+    padding: 0px 0px 0px 15px;
+}
